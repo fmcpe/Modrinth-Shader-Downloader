@@ -1,8 +1,6 @@
-GAME_VERSION = "1.8.9"
+GAME_VERSION = "1.8.9"   # Target Minecraft version
 
-# -1 = unlimited downloads
-SHADER_LIMIT = 10
-
-LIMIT = 20
-CONCURRENCY = 100
-OUTPUT_DIR = "shaders"
+SHADER_LIMIT = -1        # -1 = unlimited downloads
+LIMIT = 100              # API results per request
+CONCURRENCY = 10         # Async workers
+OUTPUT_DIR = "shaders"   # Download directory
