@@ -35,7 +35,7 @@ shaders/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/modrinth-shader-downloader.git
+git clone https://github.com/fmcpe/modrinth-shader-downloader.git
 cd modrinth-shader-downloader
 ```
 
